@@ -1,0 +1,10 @@
+version: "3"
+services:
+  sentinel:
+    image: gitlab.wlink.com.np:4567/tamang.sujan/sentinel-redis:1.0.0
+    ports:
+      - 26379:26379
+      - 6379:6379
+
+# eg: redis-cli -p 26379 sentinel GET-MASTER-ADDR-BY-NAME master 
+# Here, master is the name of redis-master[127.0.0.1]
