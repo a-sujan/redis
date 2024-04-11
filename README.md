@@ -1,6 +1,6 @@
 # redis
 all setup related to redis and redis HA
-# REDIS HA POC
+# REDIS HA
 ## sentinel
 ```mermaid
 flowchart TD
